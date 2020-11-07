@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello page</title>
+	<link rel="stylesheet" type="text/css" href="../static/css/style.css">
+	<script type="text/javascript">
+		function submit_message() {
+			alert("Form submission complete");
+		}
+	</script>
+</head>
+<body>
+<center>
+	<h2>Login Form</h2>
+	<form method="post" action="login_success" onsubmit="submit_message()">
+		<input type="text" name="user_name" placeholder="User Name"/>
+		<br/><br/><br/>
+		<input type="password" name="password" placeholder="Password"/>
+		<br/><br/><br/>
+		<input type="submit" name="submit">
+	</form>
+</center>
+</body>
+</html>
