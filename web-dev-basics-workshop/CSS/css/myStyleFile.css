@@ -1,0 +1,27 @@
+h3{
+	color: white;
+	background-color: purple;
+}
+
+/* Selectors*/
+#myDivId{
+	background-color: yellow;
+	width:20%;
+	height:25%;
+	border:2px solid black;
+}
+
+
+.myDivClass{
+	background-color: pink;
+	width:20%;
+	height:25%;
+	border:2px solid black;
+	margin-right:20px;
+	display: inline-block;
+}
+
+.backgroundClass{
+	background: url(../images/background_1.jpg) no-repeat center center fixed; 
+  background-size: cover;
+}

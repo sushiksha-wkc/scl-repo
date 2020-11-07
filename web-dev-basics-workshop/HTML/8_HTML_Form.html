@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <style>
+          div{
+              border: 1px dotted black; 
+              margin:20px;
+              width:20%;
+          }
+        </style>
+    </head>
+    <body>
+      <form onsubmit="alert('Submitted successfully')">
+        <div><h1> Sign Up </h1></div>
+         <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name">
+          </div>
+           <div>
+              <label for="email">Email:</label>
+              <input type="email" id="mail" name="user_email">
+          </div>
+           <div>
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="user_password">
+          </div>
+           <div>
+                <label>Age:</label>
+                <input type="radio" id="under_21" value="under_21" name="user_age"><label for="under_21">Under 21</label>
+                <input type="radio" id="over_21" value="over_21" name="user_age"><label for="over_21">Over 21</label>
+          </div>
+          
+           <div>          
+             <label for="bio">Bio:</label>
+              <textarea id="bio" name="user_bio"></textarea>
+          </div>
+           <div>
+               <label for="job">Job Role:</label>
+                <select id="job" name="user_job">
+                  <optgroup label="Web">
+                    <option value="frontend_developer">Front-End Developer</option>
+                    <option value="php_developer">PHP Developer</option>
+                    <option value="python_developer">Python Developer</option>
+                    <option value="web_designer">Web Designer</option>
+                    <option value="wordpress_developer">Wordpress Developer</option>
+                  </optgroup>
+                  <optgroup label="Mobile">
+                    <option value="android_developer">Android Developer</option>
+                    <option value="ios_developer">IOS Developer</option>
+                    <option value="mobile_designer">Mobile Designer</option>
+                  </optgroup>
+                  <optgroup label="Business">
+                    <option value="business_owner">Business Owner</option>
+                    <option value="freelancer">Freelancer</option>
+                  </optgroup>
+                </select>
+          </div>
+           <div>
+            <label>Interests:</label>
+            <input type="checkbox" id="development" value="interest_development" name="user_interest"><label class="light" for="development">Development</label><br>
+            <input type="checkbox" id="design" value="interest_design" name="user_interest"><label class="light" for="design">Design</label><br>
+            <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Business</label>
+          </div>
+           
+		<div>
+        <button type="submit">Sign Up</button>
+        </div>
+       </form>
+       
+      
+    </body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {background-color: yellow; color: blue;}
+h1 {background-color: red; color: green}
+</style>
+</head>
+<body>
+
+<h1 style="color:white">Hello Specificity!</h1>
+
+<p>Did you see what just happened? The h1 tag was specified with 2 rules in the internal css way and inline style too. What just happened?? </p>
+<p>Due to the rules of  specificity, the rule in the lowermost is applied (most recent). But the color was defined as green in the second one, how come the color became white? This is due to the inline style definition :) </p>
+
+<p>Inline style has highest priority!</p>
+
+<h3>Basically, the style values just get overwritten for that property of an element.</h3>
+</body>
+</html>
